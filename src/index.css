@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+    width:100%;
+    font-family:" DM Sans", sans-serif;
+    @apply text-gray-500;
+    
+
+}
